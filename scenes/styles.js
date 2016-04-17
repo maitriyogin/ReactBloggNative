@@ -15,6 +15,12 @@ const styles = StyleSheet.create({
   titleText: {
     fontSize: 20,
     fontWeight: 'bold'
+  },
+  sidebar: {
+    flex:1,
+    backgroundColor:"#699696",
+    justifyContent: "center",
+    alignItems: "center"
   }
 });
 
