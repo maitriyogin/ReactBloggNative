@@ -7,6 +7,6 @@ import React, {
   AppRegistry
 } from 'react-native';
 
-import {Scenes} from './scenes/';
+import {Scenes} from './src/scenes/';
 
 AppRegistry.registerComponent("ReactBloggNative", () => Scenes);

@@ -1,11 +1,12 @@
 import Launch from './launch';
-import NavigationDrawer from './NavigationDrawer'
 import Posts from './posts';
-import PostsSidebar from './posts-sidebar';
+import Sidedraw from './sidedraw';
 import Post from './post';
 import Comments from './comments';
 import Comment from './comment';
+import Login from './login'
 const scenes = {
+  Login,
   Posts,
   Post,
   Comments,
@@ -13,7 +14,6 @@ const scenes = {
 }
 export {
   Launch,
-  NavigationDrawer,
-  PostsSidebar,
+  Sidedraw,
   scenes
 }
